@@ -49,7 +49,7 @@ class Fractal implements Larasponse
     {
         $paginator->appends(\Request::query());
 
-        $resource = new Collection($paginator->getItems(), $this->getTransformer($transformer), $resourceKey);
+        $resource = new Collection($paginator->items(), $this->getTransformer($transformer), $resourceKey);
 
         $resource->setPaginator(new IlluminatePaginatorAdapter($paginator));
 
