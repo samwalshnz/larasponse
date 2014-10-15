@@ -1,6 +1,6 @@
 <?php  namespace Sorskod\Larasponse;
 
-use Illuminate\Pagination\Paginator;
+use Illuminate\Contracts\Pagination\Paginator;
 
 interface Larasponse
 {
