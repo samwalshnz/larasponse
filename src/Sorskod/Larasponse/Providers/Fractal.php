@@ -1,6 +1,6 @@
 <?php  namespace Sorskod\Larasponse\Providers;
 
-use Illuminate\Pagination\Paginator;
+use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Support\Contracts\ArrayableInterface;
 use League\Fractal\Manager;
 use League\Fractal\Pagination\IlluminatePaginatorAdapter;
